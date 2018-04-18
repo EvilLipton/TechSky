@@ -1,0 +1,55 @@
+#spisok ul { display: :none;}
+#spisok li:hover ul { display: block;}
+#spisok, #spisok ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#spisok li { float: left;}
+#spisok ul li { float: none;}
+
+#spisok ul {
+  display: none;
+  position: absolute;
+  top: 100%;
+}
+#spisok li {
+  float: left;
+  position: relative;
+}
+#spisok { height: 30px; }
+
+#spisok ul {
+  display: none;
+  background-color: #f90;
+  position: absolute;
+  top: 100%;
+}
+#spisok li:hover ul { display: block; }
+#spisok, #spisok ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+#spisok {
+  height: 30px;
+  background-color: #666;
+  padding-left: 25px;
+  min-width: 470px;
+}
+#spisok li {
+  float: left;
+  position: relative;
+  height: 100%;
+}
+#spisok li a {
+  display: block;
+  padding: 6px;
+  width: 100px;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+}
+#spisok ul li { float: none; }
+#spisok li:hover { background-color: #f90; }
+#spisok ul li:hover { background-color: #666; }

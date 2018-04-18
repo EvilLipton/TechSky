@@ -1,0 +1,11 @@
+#footer {
+  position: relative;;   /* позиция блока фиксированная и положения своего не меняет */
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;   /* выравнивание текста по центру */
+  background:#7d7777;   /* цвет заднего фона*/
+  color: #ffffff;   /* цвет текста */
+  height: 20px; /* высота футера */
+  /* ширина страницы */
+
+}

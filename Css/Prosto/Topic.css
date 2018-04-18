@@ -1,0 +1,28 @@
+.logo {
+    font-family: arial, sans-serif;
+    padding-left: 64px;
+    background:0 50% no-repeat;  /* логотип */
+}
+.logo, .logo > * { /* блок */
+    display: inline-block;
+    margin: 0;
+}
+.logo h1 {
+    line-height: 45px;
+    font-size: 45px;
+}
+.logo h1 a {
+    color: DarkSlateGray;
+    text-decoration: none;
+    display: inline-block;
+}
+.logo p { /* краткое описание */
+    font-size: 12px;
+    text-transform: uppercase;
+    text-align: justify;
+    display: table;
+    color: sienna;
+    background-color: GhostWhite;
+
+    letter-spacing: .3277ex;
+}
